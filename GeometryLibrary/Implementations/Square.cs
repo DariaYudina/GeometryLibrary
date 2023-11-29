@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace GeometryLibrary.Implementations
 {
-    internal class Square : Shape
+    public class Square : Shape
     {
-        private readonly double _side;
+        public double Side { get; }
 
         public Square(double side)
         {
             ValidatePositiveValues((nameof(side), side));
-            _side = side;
+            Side = side;
         }
 
-        public override double GetPerimeter() => 4 * _side;
+        public override double GetPerimeter() => 4 * Side;
 
-        public override double GetArea() => Math.Pow(_side, 2);
+        public override double GetArea() => Math.Pow(Side, 2);
     }
 }

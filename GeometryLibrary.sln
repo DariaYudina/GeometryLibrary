@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary", "GeometryLibrary\GeometryLibrary.csproj", "{218F35BE-B362-49E1-B50D-B416370CAB48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryLibrary", "GeometryLibrary\GeometryLibrary.csproj", "{218F35BE-B362-49E1-B50D-B416370CAB48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibraryConsoleUI", "GeometryLibraryConsoleUI\GeometryLibraryConsoleUI.csproj", "{5664D552-D617-495B-8AD7-994B72F7C2C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryLibraryConsoleUI", "GeometryLibraryConsoleUI\GeometryLibraryConsoleUI.csproj", "{5664D552-D617-495B-8AD7-994B72F7C2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibraryTests", "GeometryLibraryTests\GeometryLibraryTests.csproj", "{5DAB66D0-9B3B-4AD9-ABAE-E6F5B3E43062}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5664D552-D617-495B-8AD7-994B72F7C2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5664D552-D617-495B-8AD7-994B72F7C2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5664D552-D617-495B-8AD7-994B72F7C2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAB66D0-9B3B-4AD9-ABAE-E6F5B3E43062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAB66D0-9B3B-4AD9-ABAE-E6F5B3E43062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAB66D0-9B3B-4AD9-ABAE-E6F5B3E43062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAB66D0-9B3B-4AD9-ABAE-E6F5B3E43062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
